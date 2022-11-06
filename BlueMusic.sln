@@ -5,8 +5,6 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FC58905F-5463-4CD2-80DE-F679BE012FB0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlueMusic.Api", "src\BlueMusic.Api\BlueMusic.Api.csproj", "{E92B9169-0C41-40FD-8082-FEDF200BB35A}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlueMusic.Infrastructure", "src\BlueMusic.Infrastructure\BlueMusic.Infrastructure.csproj", "{2D339902-F602-466D-8DAE-DC496C6170B8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{294BF950-8993-429C-A35D-5FE32ADEBF6C}"
@@ -23,16 +21,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlueMusic.Domain.Tests", "t
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlueMusic.Infrastrcture.Tests", "tests\BlueMusic.Infrastrcture.Tests\BlueMusic.Infrastrcture.Tests.csproj", "{54D5A60E-033C-435B-BA27-7E8D7B5A6FF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueMusic.Api", "src\BlueMusic.Api\BlueMusic.Api.csproj", "{AAAB0BDC-933D-4607-BFBD-B4185616353A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E92B9169-0C41-40FD-8082-FEDF200BB35A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E92B9169-0C41-40FD-8082-FEDF200BB35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E92B9169-0C41-40FD-8082-FEDF200BB35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E92B9169-0C41-40FD-8082-FEDF200BB35A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2D339902-F602-466D-8DAE-DC496C6170B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2D339902-F602-466D-8DAE-DC496C6170B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D339902-F602-466D-8DAE-DC496C6170B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -61,12 +57,15 @@ Global
 		{54D5A60E-033C-435B-BA27-7E8D7B5A6FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54D5A60E-033C-435B-BA27-7E8D7B5A6FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54D5A60E-033C-435B-BA27-7E8D7B5A6FF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAAB0BDC-933D-4607-BFBD-B4185616353A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAAB0BDC-933D-4607-BFBD-B4185616353A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAAB0BDC-933D-4607-BFBD-B4185616353A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAAB0BDC-933D-4607-BFBD-B4185616353A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{E92B9169-0C41-40FD-8082-FEDF200BB35A} = {FC58905F-5463-4CD2-80DE-F679BE012FB0}
 		{2D339902-F602-466D-8DAE-DC496C6170B8} = {FC58905F-5463-4CD2-80DE-F679BE012FB0}
 		{E590124D-CFD5-4DC1-9BAA-13E4F9C0E0AD} = {FC58905F-5463-4CD2-80DE-F679BE012FB0}
 		{7D8AD468-7A54-45D6-AD09-134C0FF13F97} = {FC58905F-5463-4CD2-80DE-F679BE012FB0}
@@ -74,6 +73,7 @@ Global
 		{CEAB41B8-5D43-4D27-A734-10D90ED7DFD9} = {294BF950-8993-429C-A35D-5FE32ADEBF6C}
 		{56A338F6-C753-4FE5-A91A-64E84B21C86E} = {294BF950-8993-429C-A35D-5FE32ADEBF6C}
 		{54D5A60E-033C-435B-BA27-7E8D7B5A6FF8} = {294BF950-8993-429C-A35D-5FE32ADEBF6C}
+		{AAAB0BDC-933D-4607-BFBD-B4185616353A} = {FC58905F-5463-4CD2-80DE-F679BE012FB0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62271BB6-6A2E-4F0C-8F0F-0CC20DBCD5D2}
